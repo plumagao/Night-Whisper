@@ -78,8 +78,25 @@ export default function Home() {
       <section id="zones" className="section shell articleSection">
         <h2 className="sectionTitle">观测区域 <span>Observing Zones</span></h2>
         <div className="zoneGrid">
-          <article className="zoneCard privateZone"><span>PRIVATE OBSERVING FIELD</span><h4>爱好者专用观测区</h4><p>面向携带天文目视器材的爱好者 这里以安静 暗适应和尽量少的人员流动为原则 为长时间目视观测和器材交流保留一个真正纯粹的环境</p><p className="enCopy">Reserved for participants bringing visual astronomy equipment with minimal movement and strict dark adaptation for uninterrupted observing and equipment exchange</p><div className="photoPlaceholder">PRIVATE FIELD PHOTO 已提供原图 待接入媒体文件</div></article>
-          <article className="zoneCard publicZone"><span>PUBLIC OBSERVING AREA</span><h4>公众开放观测区</h4><p>无自带目视器材的报名者 希望体验望远镜的家属及新手在公众区参与 组织方提供20英寸 Dobsonian 望远镜并安排观星向导讲解</p><p className="enCopy">Participants without their own visual equipment accompanying family members and beginners join the public area with a 20 inch Dobsonian telescope and a dedicated sky guide</p><div className="publicFee"><strong>¥50 每人</strong><small>公众观测服务费 Public observing service fee ¥50 per person</small></div><div className="dobsonNote"><strong>20″ DOBSONIAN</strong><small>Public observing telescope 公众观测望远镜</small></div><div className="photoPlaceholder">PUBLIC FIELD AND 20″ DOBSON PHOTOS 已提供原图 待接入媒体文件</div></article>
+          <article className="zoneCard privateZone">
+            <span>PRIVATE OBSERVING FIELD</span>
+            <h4>爱好者专用观测区</h4>
+            <p>面向携带天文目视器材的爱好者 这里以安静 暗适应和尽量少的人员流动为原则 为长时间目视观测和器材交流保留一个真正纯粹的环境</p>
+            <p className="enCopy">Reserved for participants bringing visual astronomy equipment with minimal movement and strict dark adaptation for uninterrupted observing and equipment exchange</p>
+            <figure className="zonePhoto"><img src="/Private.jpg" alt="爱好者专用观测区 Private observing field" loading="lazy"/></figure>
+          </article>
+          <article className="zoneCard publicZone">
+            <span>PUBLIC OBSERVING AREA</span>
+            <h4>公众开放观测区</h4>
+            <p>无自带目视器材的报名者 希望体验望远镜的家属及新手在公众区参与 组织方提供20英寸 Dobsonian 望远镜并安排观星向导讲解</p>
+            <p className="enCopy">Participants without their own visual equipment accompanying family members and beginners join the public area with a 20 inch Dobsonian telescope and a dedicated sky guide</p>
+            <div className="publicFee"><strong>¥50 每人</strong><small>公众观测服务费 Public observing service fee ¥50 per person</small></div>
+            <figure className="zonePhoto"><img src="/Public.jpg" alt="公众开放观测区 Public observing area" loading="lazy"/></figure>
+            <div className="dobsonFeature">
+              <div className="dobsonNote"><strong>20″ DOBSONIAN</strong><small>Public observing telescope 公众观测望远镜</small></div>
+              <figure className="dobsonPhoto"><img src="/dob.jpg" alt="20英寸 Dobsonian 望远镜 20 inch Dobsonian telescope" loading="lazy"/></figure>
+            </div>
+          </article>
         </div>
       </section>
 
