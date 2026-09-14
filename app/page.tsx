@@ -5,7 +5,7 @@ const navItems = [
 ];
 const mapUrl="https://uri.amap.com/marker?position=118.281816,30.006337&name=%E6%98%9F%E7%A9%BA%E5%91%88%E9%98%B3%E9%9C%B2%E8%90%A5%E5%9F%BA%E5%9C%B0";
 const windyUrl="https://www.windy.com/30.006/118.282?clouds,30.006,118.282,8";
-const meteoblueUrl="https://www.meteoblue.com/en/weather/outdoorsports/seeing/huangshan_china_1809858";
+const meteoblueUrl="https://www.meteoblue.com/en/weather/outdoorsports/seeing/30.006N118.282E618_Asia%2FShanghai";
 export default function Home(){return <main>
 <header className="nav shell"><a className="brand" href="#top"><span>NIGHT WHISPER</span><small>夜语星趴 STAR PARTY</small></a><nav>{navItems.map(([l,h])=><a key={h} href={h}>{l}</a>)}</nav></header>
 <section id="top" className="hero shell"><div className="eyebrow">HUANGSHAN ANHUI 2026</div><div className="heroCopy"><h1>NIGHT WHISPER</h1><p className="cnTitle">夜语星趴 呈阳</p><p className="enTitle">STAR PARTY CHENGYANG</p><div className="eventMeta"><span>2026 WEATHER SELECTED WEEKEND</span><span>星空呈阳露营基地 安徽黄山</span></div><div className="intro"><p>纯粹 硬核 有温度</p><p>Pure Serious Warm</p></div><div className="heroActions"><a className="button primary" href="#dates">候选日期 Dates</a><a className="button ghost" href="#weather">观星天气 Weather</a></div></div><div className="mountains"><div className="ridge ridgeBack"/><div className="ridge ridgeFront"/></div></section>
