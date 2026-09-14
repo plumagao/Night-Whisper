@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "./photos.css";
 
 export const metadata: Metadata = {
-  title: "Night Whisper 星空聚会 2026",
+  title: "Night Whisper 夜语星趴 呈阳 2026",
   description:
-    "Night Whisper 星空聚会 2026 / Night Whisper Star Party 2026 · 2026.11.06–11.08 · 红柯窑 · 安徽黄山 / Hongkeyao · Huangshan, Anhui",
+    "Night Whisper 夜语星趴 呈阳 2026 · 星空呈阳露营基地 · 安徽黄山 · 三个候选周末将根据观星天气确定最终日期",
 };
 
 export default function RootLayout({
