@@ -1,0 +1,6 @@
+@media (max-width:760px){
+  .hero{min-height:820px;padding-top:145px;padding-bottom:130px}
+  .heroActions{max-width:none;width:100%;gap:10px;margin-top:30px}
+  .mountains{height:220px}
+  .weatherDock{position:static;left:auto;right:auto;bottom:auto;margin:0 15px 18px;min-width:0;width:auto}
+}
