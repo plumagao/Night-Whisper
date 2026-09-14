@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import "./photos.css";
 import "./brand.css";
+import "./mobile-fix.css";
 
 export const metadata: Metadata = {
   title: "Night Whisper 夜语星趴 呈阳 2026",
