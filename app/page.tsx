@@ -1,7 +1,7 @@
 import AstroWeather from "./components/AstroWeather";
 
 const navItems = [
-  ["活动 Event", "#about"], ["日期 Dates", "#dates"], ["场地 Venue", "#venue"], ["观测区 Zones", "#zones"], ["天气 Weather", "#weather"], ["规则 Rules", "#rules"], ["联系 Contact", "#contact"],
+  ["活动 Event", "#about"], ["日期 Dates", "#dates"], ["场地 Venue", "#venue"], ["住宿 Stay", "#stay"], ["观测区 Zones", "#zones"], ["天气 Weather", "#weather"], ["规则 Rules", "#rules"], ["联系 Contact", "#contact"],
 ];
 const mapUrl="https://uri.amap.com/marker?position=118.281816,30.006337&name=%E6%98%9F%E7%A9%BA%E5%91%88%E9%98%B3%E9%9C%B2%E8%90%A5%E5%9F%BA%E5%9C%B0";
 const windyUrl="https://www.windy.com/30.006/118.282?clouds,30.006,118.282,8";
